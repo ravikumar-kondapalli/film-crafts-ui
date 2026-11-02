@@ -221,3 +221,23 @@ body{background:#e9edf5}
 .mobile-app .sidebar .nav-item{padding:10px 12px;margin:1px 0}
 
 .mobile-app .review-link{display:inline-flex;align-items:center;justify-self:start;gap:6px;min-height:44px;padding:0 4px;border:0;border-radius:0;background:transparent;color:#5265d9;font-size:14px;font-weight:600;text-decoration:underline;text-underline-offset:3px}.mobile-app .review-link:hover{color:#3449ad}
+
+.profile-media .media-description{font-size:13px;margin:0 0 12px;color:#71809a}
+.media-count{font-size:12px;color:#5265d9;background:#edf0ff;border-radius:8px;padding:4px 8px}
+.profile-media-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.profile-media-grid figure{margin:0;min-width:0}
+.gallery-image,.profile-media-grid video{width:100%;aspect-ratio:4/3;border-radius:10px;background:#15213a;display:block;object-fit:cover}
+.gallery-image{position:relative;border:0;padding:0;overflow:hidden;color:#dbe3ff}
+.gallery-image>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+.gallery-image>span{position:absolute;right:6px;bottom:6px;z-index:2;background:#14213b9c;border-radius:6px;padding:5px;display:flex}
+.profile-media-grid figcaption{font-size:12px;color:#344663;padding:6px 0;line-height:1.4}
+.profile-media-grid figcaption small{display:block;font-size:10px;color:#8491a6;margin-top:2px}
+.instagram-profile{display:flex;align-items:center;gap:10px;margin-top:10px;padding:12px;background:linear-gradient(110deg,#fff1ef,#f5efff);border:1px solid #f1dfea;border-radius:12px;text-decoration:none;color:#a43c80;min-height:52px}
+.instagram-profile>span{flex:1;min-width:0}.instagram-profile b{display:block;font-size:15px}.instagram-profile small{display:block;font-size:12px;color:#846a83}
+.gallery-lightbox{position:fixed;inset:0;z-index:100;background:#0a1024dc;display:flex;align-items:center;justify-content:center;padding:16px}
+.gallery-lightbox dialog{position:relative;inset:auto;margin:0;padding:12px;border:0;border-radius:16px;background:#fff;width:min(100%,720px);max-height:90dvh;overflow:auto}
+.gallery-lightbox dialog>img{display:block;width:100%;max-height:75dvh;object-fit:contain;border-radius:8px}
+.gallery-lightbox p{font-size:13px;margin:8px 0 0}
+.gallery-close{position:absolute;right:18px;top:18px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;border:0;border-radius:50%;background:#fff;z-index:1;color:#24324a}
+
+.gallery-video iframe{display:block;width:100%;aspect-ratio:4/3;border:0;border-radius:10px;background:#15213a}.gallery-video>a{display:inline-flex;align-items:center;gap:3px;color:#5265d9;font-size:11px;margin-top:4px}.profile-media .media-description{line-height:1.45}
